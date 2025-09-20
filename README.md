@@ -24,25 +24,27 @@ t80/
 ## Utilisation 
 1. **Éditez le code** dans `src/*.lua`.
 2. **Préparer le code lua** :
-   ```fichier de commande
+   ```
    .\run
    ```
-   - Cela crée un fichier `code`.
-3. **Lancer TIC-80** une version jouable :
-   ```ligne de commande ou racoucis vers tic80.exe
+   - Cela crée un fichier `./code`
+3. **Lancer TIC-80**:
+   ```
+   tic80.exe
    ```
 4. **Charger la cartouche** 
-   ``` dans TIC-80 
-   load game
+   ``` 
+   cd **votre répertoire projet**
+   load game (charge game.tic)
    ```
 
-4. **Mettre à jour le code source** 
-   ``` une fois le code édité il faut le mettre à jour dans TIC-80 
+5. **Mettre à jour le code source** 
+   ``` 
+   une fois le code édité il faut le mettre à jour dans TIC-80 :
    import code code
    ```
 
 ## Notes
 - Le code Lua est **concaténé** dans l'ordre **alphabétique** des fichiers de `src/`. Préfixez vos fichiers si nécessaire (`00_main.lua`, `10_player.lua`, etc.).
-- Les assets sont **optionnels** : ils ne sont importés que si le fichier existe dans `assets/`.
 - Par défaut le home de TIC-80 sur windows est C:\Users\ **user** \AppData\Roaming\com.nesbox.tic\TIC-80
 - Faute de mieux j'ai créé mon repo git dans ce répertoir pour y accéder depuis TIC-80
