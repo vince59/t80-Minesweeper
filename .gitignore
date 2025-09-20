@@ -40,7 +40,6 @@ luac.out
 *.hex
 
 /build/
-*.tic
 *.html
 *.wasm
 *.exe
@@ -48,3 +47,4 @@ luac.out
 *.app
 .DS_Store
 Thumbs.db
+code

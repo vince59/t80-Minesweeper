@@ -1,0 +1,1 @@
+copy /B .\src\*.lua .\code
