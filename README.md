@@ -1,4 +1,4 @@
-# TIC-80 Lua Template (VS Code + Git + Assets séparés)
+# TIC-80 Lua Template (VS Code + Git)
 
 Projet squelette pour développer un jeu **TIC-80 en Lua** avec :
 - **Code** organisé en plusieurs fichiers (`src/*.lua`)
@@ -12,9 +12,9 @@ Projet squelette pour développer un jeu **TIC-80 en Lua** avec :
 ```
 t80/
 ├─ src/
-│  ├─ main.lua          # point d'entrée TIC-80
-│  ├─ player.lua        # module d'exemple
-│  └─ util.lua          # helpers
+│  ├─ 00_main.lua          # point d'entrée TIC-80
+│  ├─ 01_player.lua        # module d'exemple
+│  └─ 02_util.lua          # helpers
 ├─ run.bat              # fichier de commande pour concaténer les sources
 ├─ code                 # fichier contenant le code source concaténé après compilation
 ├─ game.tic             # fichier contenant la cartouche avec l'ensemble du jeu (assets compris)
