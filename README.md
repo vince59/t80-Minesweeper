@@ -50,4 +50,4 @@ t80/
 ## Notes
 - Le code Lua est **concaténé** dans l'ordre **alphabétique** des fichiers de `src/`. Préfixez vos fichiers si nécessaire (`00_main.lua`, `10_player.lua`, etc.).
 - Par défaut le home de TIC-80 sur windows est C:\Users\ **user** \AppData\Roaming\com.nesbox.tic\TIC-80
-- Faute de mieux j'ai créé mon repo git dans ce répertoir pour y accéder depuis TIC-80
+- Faute de mieux j'ai créé mon repo git dans ce répertoire pour y accéder depuis TIC-80
