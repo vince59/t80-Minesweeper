@@ -39,3 +39,12 @@ luac.out
 *.x86_64
 *.hex
 
+/build/
+*.tic
+*.html
+*.wasm
+*.exe
+*.bin
+*.app
+.DS_Store
+Thumbs.db
