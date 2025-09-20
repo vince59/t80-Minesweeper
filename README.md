@@ -28,20 +28,23 @@ t80/
    .\run
    ```
    - Cela crée un fichier `./code`
-3. **Lancer TIC-80**:
+3. **Lancer TIC-80** 
    ```
    tic80.exe
    ```
-4. **Charger la cartouche** 
+4. **Charger la cartouche** dans la console TIC-80 
    ``` 
-   cd **votre répertoire projet**
+   cd [votre répertoire projet]
    load game (charge game.tic)
    ```
-
-5. **Mettre à jour le code source** 
+5. **Mettre à jour le code source** dans la console TIC-80 
    ``` 
    une fois le code édité il faut le mettre à jour dans TIC-80 :
    import code code
+   ```
+6. **Lancer le jeu** dans la console TIC-80 
+   ``` 
+   run
    ```
 
 ## Notes
